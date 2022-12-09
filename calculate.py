@@ -1,9 +1,8 @@
 from telegram import Bot
 from telegram.ext import Updater, CommandHandler
-import math
 from operation import *
 
-bot = Bot(token='ВВЕДИТЕ ВАШ ТОКЕН')
+bot = Bot(token='ВВВЕДИТЕ ВАШ ТОКЕН')
 updater = Updater(token='ВВЕДИТЕ ВАШ ТОКЕН')
 dispatcher = updater.dispatcher
 
